@@ -12,9 +12,13 @@ boton.addEventListener('click', () => {
     let valorB = Number(b.value);
     let valorC = Number(c.value);
 
-    console.log(valorA);
+    if (valorA <= 0 || valorB <= 0 || valorC <= 0) {
+        area.innerText = "Valores incorrectos"
 
-    let resultado = ((valorA - valorC) * valorB) / 2 + (valorC * valorB);
+    } else {
 
-    area.innerText = "El área es igual a " + resultado;
+        console.log(valorA);
+        let resultado = ((valorA - valorC) * valorB) / 2 + (valorC * valorB);
+        area.innerText = "El área es igual a " + resultado;
+    }
 })
