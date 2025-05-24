@@ -6,15 +6,14 @@ const area = document.getElementById("area");
 
 console.log(a.value);
 
+let errores = 0;
+
 boton.addEventListener('click', () => {
 
-    let valorA = Number(a.value);
-    let valorB = Number(b.value);
-    let valorC = Number(c.value);
+    console.log(nombre.value);
+    console.log(nombre.value.length);
 
-    console.log(valorA);
-
-    let resultado = ((valorA - valorC) * valorB) / 2 + (valorC * valorB);
-
-    area.innerText = "El área es igual a " + resultado;
+    if (nombre.value === "" || nombre.value.length > 50) {
+        errores++;
+    }
 })
