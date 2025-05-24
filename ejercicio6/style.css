@@ -1,4 +1,22 @@
 #cursiva {
     font-style: italic;
-    font-size: 15px;
+    font-size: 13px;
+}
+
+#imagenTerreno {
+    width: 200px;
+    height: 100px;
+}
+
+.grupo {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#pboton {
+    font-style: italic;
+}
+
+#boton {
+    background-color: rgb(237, 162, 100);
 }

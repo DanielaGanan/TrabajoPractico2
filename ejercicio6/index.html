@@ -8,29 +8,39 @@
 </head>
 <body>
     <h1>Datos Personales</h1>
-    <p>Ingrese los datos para el registro</p>
+    <h4>Ingrese los datos para el registro</h4>
 
-    <p>Ingrese su nombre</p>
-    <p id="cursiva">No debe estar en blanco ni mayor a 50 caracteres</p>
-    <input id="nombre">
+    <div id="grupo">
+        <label>Ingrese su nombre</label>
+        <input id="nombre">
+        <p id="cursiva">No debe estar en blanco ni mayor a 50 caracteres</p>
+    </div>
 
-    <p>Ingrese su apellido</p>
-    <p id="cursiva">No debe estar en blanco ni mayor a 50 caracteres</p>
-    <input id="apellido">
+    <div id="grupo">
+        <label>Ingrese su apellido</label>
+        <input id="apellido">
+        <p id="cursiva">No debe estar en blanco ni mayor a 50 caracteres</p>
+    </div>
 
-    <p>Ingrese su edad</p>
-    <p id="cursiva">Debe ser mayor a 18 años</p>
-    <input id="edad">
+    <div id="grupo">
+        <label>Ingrese su edad</label>
+        <input id="edad">
+        <p id="cursiva">Debe ser mayor a 18 años</p>
+    </div>
 
-    <p>Ingrese su altura</p>
-    <p id="cursiva">Debe ser en centimetros, y no exceder a 230 cm</p>
-    <input id="altura">
+    <div id="grupo">
+        <label>Ingrese su altura</label>
+        <input id="altura">
+        <p id="cursiva">Debe ser en centimetros, y no exceder a 230 cm</p>
+    </div>
 
-    <p>Ingrese su correo electronico</p>
-    <p id="cursiva">No puede estar vacio</p>
-    <input id="correo">
+    <div id="grupo">
+        <label>Ingrese su correo electrónico</label>
+        <input id="correo">
+        <p id="cursiva">No puede estar vacío y debe contener un @</p>
+    </div>
 
-    <p>Presione para cargar sus datos</p>
+    <h5>Presione para cargar sus datos</h5>
     <button id="boton">Enviar</button>
 
     <p id="respuesta"></p>
