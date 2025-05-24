@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Ejercicio 1</title>
+    <title>Ejercicio 4</title>
+
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     <h1>Calculo del índice de masa corporal</h1>
     <p>Ingrese su peso en kilogramos y su estatura en metros para calcular su IMC.</p>
 
-    <p>Ingrese su estatura en cm</p>
-    <input id="altura">
+    <div class="grupo">
+        <label for="altura">Ingrese su estatura en cm</label>
+        <input id="altura" type="number">
+    </div>
 
-    <p>Ingrese su peso en kg</p>
-    <input id="peso">
+    <div class="grupo">
+        <label for="peso">Ingrese su peso en kg</label>
+        <input id="peso" type="number">
+    </div>
 
-    <p>Presione el boton para conocer su IMC</p>
+    <p id="pboton">Presione el boton para conocer su IMC</p>
     <button id="boton">Calcular</button>
 
     <script src="script.js"></script>

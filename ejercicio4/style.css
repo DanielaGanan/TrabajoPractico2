@@ -1,0 +1,12 @@
+.grupo {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#pboton {
+    font-style: italic;
+}
+
+#boton {
+    background-color: cornflowerblue;
+}
